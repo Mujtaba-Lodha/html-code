@@ -1,0 +1,55 @@
+ 1 :- inline element and block element.
+    ans:- An inline element is a presentational characteristic that uses <span> as an HTML tag to define a section. 
+          
+          block element :- A block of the periodic table is a set of elements unified by the atomic orbitals their valence electrons or vacancies lie in.
+
+        inline ex:- h1 to h6 , p , hr , nav , footer , header , div ,
+        block ex:- a , span , br , input , img , b , 
+
+  2:-   <!-- how to creat list  -->
+                <ul>
+                        <li>one</li>
+                        <li>two</li>
+                        <li>three</li>
+                </ul>
+
+                <ol>
+                        <li>four</li>
+                        <li>five</li>
+                        <li>six</li>
+                </ol>
+
+                <ul>
+                        <li>
+                                <ol type="A">
+                                        <li>veg</li>
+                                        <li>jain</li>
+                                </ol>
+                        </li>
+                        <hr>
+                        <li>
+                                <ul >
+                                        <li type="I">green salad</li>
+                                        <li type="a">veg salad</li>
+                                </ul>
+                        </li>
+                </ul>
+
+                <hr color="red">
+
+            3:- image tag explain
+                <!-- image tag (src is attribute),(alt is image title) -->
+                <img src="/images/kobu-agency-7okkFhxrxNw-unsplash.jpg" width="300px" title="iT image" alt="">
+
+                <hr color="green">
+
+            4:- achor tag explain    
+                <!-- anchor link expalin -->
+                <a href="www.goggle.com" target="_blank">Goggle</a>
+                
+                <a href="../html folder/img.html" target="_blank" title="IT Image">
+                    <img src="/images/kobu-agency-7okkFhxrxNw-unsplash.jpg" width="150px"  alt="IT">
+                </a>
+
+               <hr color="blue">
+      
